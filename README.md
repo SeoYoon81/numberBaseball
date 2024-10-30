@@ -1,5 +1,6 @@
 # numberBaseball
 ##### KDT 자바 미니 프로젝트
+Java를 이용하여 console에서 작동 가능한 숫자야구 게임을 구현하였다.
 
 ### UML
 
