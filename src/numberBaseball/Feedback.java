@@ -1,29 +1,22 @@
 package numberBaseball;
 
-import numberBaseball.PcNumber;
-import numberBaseball.SettingNoBB;
-import numberBaseball.UserNumber;
-
-//userNumber와 pc Number 비교하여 피드백 반환 
 public class Feedback {
-	private int userNum;
-	private int pcNum;
+	public int pcNum;
 	private int strike;
 	private int ball;
 	private String numFeedback;
 	private int digit;
 	int[] pcCount=new int[10];
 	int[] userCount=new int [10];
-	//생성자
-	public Feedback(PcNumber pcNum,SettingNoBB settingNoBB,UserNumber userNum) {
-		this.pcNum=pcNum.getPcNumber();
-		this.digit=settingNoBB.getDigit();
-		this.userNum=userNum.getUserNum();
+
+	public Feedback(int pcNum, int userNum, int digit) {
+		this.pcNum=pcNum;
 		this.strike=0;
+		this.digit=digit;
 		this.ball=0;
 		this.numFeedback="";
 	}
-	// 비교 로직
+
 	public void setFeedback(int pcNum, int userNum) {
 	
 		String pcStr=String.valueOf(pcNum);
@@ -33,11 +26,11 @@ public class Feedback {
 				strike++;
 			}
 		}
-		
-			//pcCount userCount 로직
+
 		int[]pcCount=countDigits(pcStr);
 		int[]userCount=countDigits(userStr);
-		for(int i=0;i<10;i++) {			
+		for(int i=0;i<10;i++) {		
+
 			ball+=Math.min(pcCount[i], userCount[i]);			
 		}
 		ball-=strike;

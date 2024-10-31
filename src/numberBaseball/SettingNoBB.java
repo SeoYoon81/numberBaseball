@@ -2,7 +2,7 @@ package numberBaseball;
 
 
 import java.util.Scanner;
-//자릿수 설정
+
 public class SettingNoBB {
 	private int digit;		
 	public void setup() {
@@ -15,10 +15,10 @@ public class SettingNoBB {
 				if(digit<3||digit>7) {
 					throw new NumberFormatException();
 				}
-				System.out.println(digit+"자릿수의 숫자 야구를 시작합니다.");
+				System.out.println(digit+"자릿수 숫자야구를 시작합니다.");
 				break;
 			} catch(NumberFormatException e) {
-				System.out.println("3부터 7까지의 숫자를 입력해주세요.");
+				System.out.println("3이상 7이하의 수를 입력해주세요.");
 			}
 		}
 	}
