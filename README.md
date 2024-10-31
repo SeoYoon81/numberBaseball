@@ -10,9 +10,9 @@ Java를 이용하여 console에서 작동 가능한 숫자야구 게임을 구�
 ### 구현 결과 (console)
 ##### 게임 진행과정
 
-![숫자야구 예시](https://github.com/user-attachments/assets/87d47a09-edcc-49f2-9301-e9cde58930b1)
+![숫자야구 예시](https://github.com/user-attachments/assets/ba7b728a-dbb5-4bb8-8591-c8629c2f1adc)
 
 ##### 기권할 때 
 
-![숫자야구 예시_기권](https://github.com/user-attachments/assets/c6dde88a-1844-43f5-a2b2-3ae6590ae58b)
+![숫자야구 예시_기권](https://github.com/user-attachments/assets/d14916d2-c1c8-4eb2-ab97-413657989fe2)
 
