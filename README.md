@@ -1,4 +1,4 @@
-# numberBaseball
+# numberBaseballhttps://github.com/SeoYoon81/numberBaseball/blob/main/README.md
 ##### KDT 자바 미니 프로젝트
 Java를 이용하여 console에서 작동 가능한 숫자야구 게임을 구현하였다.
 
@@ -18,7 +18,7 @@ Java를 이용하여 console에서 작동 가능한 숫자야구 게임을 구�
 
 ![001](https://github.com/user-attachments/assets/4e2855b5-0388-41f8-a192-1076b8a5931c)
 ![002](https://github.com/user-attachments/assets/6d983000-5d9c-4ffe-93bb-f152ce8eb3d6)
-![003](https://github.com/user-attachments/assets/eeb6fddf-b0b0-4516-81fb-cb2240baf99e)
+![숫자야구(Java)-003](https://github.com/user-attachments/assets/06e0c702-09ca-4e2c-88c4-b0739886ba15)
 ![004](https://github.com/user-attachments/assets/4a0444d2-39e3-4198-b298-b55ec51a6d43)
 ![005](https://github.com/user-attachments/assets/ceee3bcd-6e4a-4fb2-8a1d-004c34e4f5a2)
 ![006](https://github.com/user-attachments/assets/19dda07a-cd72-4570-9806-415864828561)
